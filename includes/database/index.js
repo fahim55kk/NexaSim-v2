@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 const logger = require('../logger');
 
-const uri = "mongodb+srv://<username>:<password>@cluster0.mongodb.net/nexasim?retryWrites=true&w=majority"; // Replace with your MongoDB URL
+const uri = "mongodb+srv://hridoyxqc:hridoyxqc@hridoyyxqc.diwe8.mongodb.net/?retryWrites=true&w=majority&appName=hridoyyXQC"; // Replace with your MongoDB URL
 const client = new MongoClient(uri);
 
 async function connect() {
